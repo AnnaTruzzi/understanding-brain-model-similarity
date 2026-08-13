@@ -1,0 +1,42 @@
+* Cross validated across subjects and items
+## all-alexnettrained
+Model mean          0.125519 +/- 0.000325
+ Lower noise ceiling 0.283334 +/- 0.000485
+ Upper noise ceiling 0.420033 +/- 0.000385
+
+* Cross validated across subjects and items
+## all-dctrained
+Model mean          0.146402 +/- 0.000339
+ Lower noise ceiling 0.283334 +/- 0.000485
+ Upper noise ceiling 0.420033 +/- 0.000385
+
+* Cross validated across subjects and items
+## all-dcrandom
+Model mean          0.152287 +/- 0.000338
+ Lower noise ceiling 0.283334 +/- 0.000485
+ Upper noise ceiling 0.420033 +/- 0.000385
+
+* Cross validated across subjects and items
+## all-alexnettrained-with-dcrandom3
+Model mean          0.158681 +/- 0.000331
+ Lower noise ceiling 0.283334 +/- 0.000485
+ Upper noise ceiling 0.420033 +/- 0.000385
+
+* Cross validated across subjects and items
+## all-dctrained-with-dcrandom3
+Model mean          0.172479 +/- 0.000339
+ Lower noise ceiling 0.283334 +/- 0.000485
+ Upper noise ceiling 0.420033 +/- 0.000385
+
+* Cross validated across subjects and items
+## all-alexnettrained-with-dcrandom2
+Model mean          0.169141 +/- 0.000346
+ Lower noise ceiling 0.283334 +/- 0.000485
+ Upper noise ceiling 0.420033 +/- 0.000385
+
+* Cross validated across subjects and items
+## all-dctrained-with-dcrandom2
+Model mean          0.178712 +/- 0.000349
+ Lower noise ceiling 0.283334 +/- 0.000485
+ Upper noise ceiling 0.420033 +/- 0.000385
+

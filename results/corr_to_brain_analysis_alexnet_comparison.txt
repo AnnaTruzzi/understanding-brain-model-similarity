@@ -1,0 +1,28 @@
+
+ ####### EVC 
+KRUSKAL test - comparison across random dc, trained dc, and trained alexnet 
+KruskalResult(statistic=np.float64(131.88341571227647), pvalue=np.float64(1.7263570742244639e-18)) 
+KRUSKAL test - comparison between random DC and trained AlexNet 
+KruskalResult(statistic=np.float64(105.77176258180998), pvalue=np.float64(1.2524996232123351e-16)) 
+Student's t test 
+ReLu1: (TtestResult(statistic=np.float64(5.8609535380105005), pvalue=np.float64(4.1393083940892426e-05), df=np.int64(14)), np.float64(1.647773141064626)) 
+ReLu2: (TtestResult(statistic=np.float64(4.878866197010459), pvalue=np.float64(0.00024373271884641756), df=np.int64(14)), np.float64(1.485911879751136)) 
+ReLu3: (TtestResult(statistic=np.float64(4.756185298487756), pvalue=np.float64(0.00030685192869268283), df=np.int64(14)), np.float64(1.6665659128557615)) 
+ReLu4: (TtestResult(statistic=np.float64(5.9838928953053285), pvalue=np.float64(3.3462308848088874e-05), df=np.int64(14)), np.float64(2.265568427137985)) 
+ReLu5: (TtestResult(statistic=np.float64(5.97809773354312), pvalue=np.float64(3.379790045670873e-05), df=np.int64(14)), np.float64(2.0465578184963786)) 
+ReLu6: (TtestResult(statistic=np.float64(4.1477404049727005), pvalue=np.float64(0.0009858984796050243), df=np.int64(14)), np.float64(1.5941948822190317)) 
+ReLu7: (TtestResult(statistic=np.float64(4.113434514323729), pvalue=np.float64(0.0010541184270584374), df=np.int64(14)), np.float64(1.656037297286695)) 
+
+ ####### IT 
+KRUSKAL test - comparison across random dc, trained dc, and trained alexnet 
+KruskalResult(statistic=np.float64(74.70522804902566), pvalue=np.float64(3.0505080151546086e-08)) 
+KRUSKAL test - comparison between random DC and trained AlexNet 
+KruskalResult(statistic=np.float64(44.261169036335104), pvalue=np.float64(2.7775640581386032e-05)) 
+Student's t test 
+ReLu1: (TtestResult(statistic=np.float64(4.1605606857798865), pvalue=np.float64(0.0009615786851113212), df=np.int64(14)), np.float64(1.3608419661932412)) 
+ReLu2: (TtestResult(statistic=np.float64(4.30865273095129), pvalue=np.float64(0.0007213690564690826), df=np.int64(14)), np.float64(1.0495760954873943)) 
+ReLu3: (TtestResult(statistic=np.float64(3.888191286224466), pvalue=np.float64(0.0016394260551068124), df=np.int64(14)), np.float64(1.1122231255004014)) 
+ReLu4: (TtestResult(statistic=np.float64(2.0592940584300763), pvalue=np.float64(0.05857021566746311), df=np.int64(14)), np.float64(0.6401381723412869)) 
+ReLu5: (TtestResult(statistic=np.float64(3.189224144426081), pvalue=np.float64(0.006559616384750879), df=np.int64(14)), np.float64(1.0501289072824058)) 
+ReLu6: (TtestResult(statistic=np.float64(0.5986431125133427), pvalue=np.float64(0.558973056450351), df=np.int64(14)), np.float64(0.17691889192508112)) 
+ReLu7: (TtestResult(statistic=np.float64(0.6330235322381897), pvalue=np.float64(0.5369220417686574), df=np.int64(14)), np.float64(0.19632116197488922)) 

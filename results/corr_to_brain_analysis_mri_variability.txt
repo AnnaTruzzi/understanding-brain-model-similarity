@@ -1,0 +1,38 @@
+
+ ####### EVC 
+ANOVA table 
+          Source   SS  ddof1  ddof2  ...  p-unc  p-GG-corr  ng2  eps
+0          state  0.0     -1      1  ...    NaN        NaN  NaN  1.0
+1          layer  0.0     -1      1  ...    NaN        NaN  NaN  1.0
+2  state * layer  0.0      1     -1  ...    NaN        NaN  NaN  NaN
+
+[3 rows x 10 columns] 
+Kruskal-Wallis H test 
+KruskalResult(statistic=np.float64(76.07495373504855), pvalue=np.float64(6.000686238469197e-11)) 
+Post-hoc t tests 
+ReLu1: TtestResult(statistic=np.float64(7.0740348603902365), pvalue=np.float64(5.559197642112405e-06), df=np.int64(14)), Cohen's d = 0.6392 
+ReLu2: TtestResult(statistic=np.float64(4.7523157900892326), pvalue=np.float64(0.00030909809762082283), df=np.int64(14)), Cohen's d = 1.5910 
+ReLu3: TtestResult(statistic=np.float64(3.938472827194598), pvalue=np.float64(0.0014850205023546833), df=np.int64(14)), Cohen's d = 1.2037 
+ReLu4: TtestResult(statistic=np.float64(5.107146657334174), pvalue=np.float64(0.0001595806340302994), df=np.int64(14)), Cohen's d = 1.6353 
+ReLu5: TtestResult(statistic=np.float64(5.567060835633948), pvalue=np.float64(6.941046741763376e-05), df=np.int64(14)), Cohen's d = 2.0920 
+ReLu6: TtestResult(statistic=np.float64(3.1812556514985286), pvalue=np.float64(0.006664383870381721), df=np.int64(14)), Cohen's d = 1.2808 
+ReLu7: TtestResult(statistic=np.float64(2.656085783463328), pvalue=np.float64(0.018804303282360654), df=np.int64(14)), Cohen's d = 1.0248 
+
+ ####### IT 
+ANOVA table 
+          Source   SS  ddof1  ddof2  ...  p-unc  p-GG-corr  ng2  eps
+0          state  0.0     -1      1  ...    NaN        NaN  NaN  1.0
+1          layer  0.0     -1      1  ...    NaN        NaN  NaN  1.0
+2  state * layer  0.0      1     -1  ...    NaN        NaN  NaN  NaN
+
+[3 rows x 10 columns] 
+Kruskal-Wallis H test 
+KruskalResult(statistic=np.float64(50.644847664184226), pvalue=np.float64(2.3100604224711586e-06)) 
+Post-hoc t tests 
+ReLu1: TtestResult(statistic=np.float64(8.182088926436181), pvalue=np.float64(1.0528003580155e-06), df=np.int64(14)), Cohen's d = 0.9493 
+ReLu2: TtestResult(statistic=np.float64(6.105133096783907), pvalue=np.float64(2.718643724529272e-05), df=np.int64(14)), Cohen's d = 1.6562 
+ReLu3: TtestResult(statistic=np.float64(5.298715681398231), pvalue=np.float64(0.00011243132594074276), df=np.int64(14)), Cohen's d = 1.2292 
+ReLu4: TtestResult(statistic=np.float64(4.270850671137748), pvalue=np.float64(0.0007761317886791026), df=np.int64(14)), Cohen's d = 1.0500 
+ReLu5: TtestResult(statistic=np.float64(1.5884789363053533), pvalue=np.float64(0.1344998407900965), df=np.int64(14)), Cohen's d = 0.4806 
+ReLu6: TtestResult(statistic=np.float64(-0.8381420797480896), pvalue=np.float64(0.41603155488909715), df=np.int64(14)), Cohen's d = -0.2514 
+ReLu7: TtestResult(statistic=np.float64(-1.4868627809047128), pvalue=np.float64(0.15922315344500768), df=np.int64(14)), Cohen's d = -0.4157 

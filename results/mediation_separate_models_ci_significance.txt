@@ -1,0 +1,114 @@
+Bootstrap CI and significance summary for mediation separate models
+Bonferroni-corrected alpha: 0.00092593
+Approximate CI level: 99.9074%
+Percentile bounds: [0.0463, 99.9537]
+
+ROI              feature            net layer    alpha   ci_lower   ci_upper  significant
+EVC             contrast alexnettrained ReLu2 0.000926  -0.263920   3.182840        False
+EVC             contrast alexnettrained ReLu7 0.000926  -0.030268   0.228281        False
+EVC             contrast       dcrandom ReLu2 0.000926  -0.014757   0.018466        False
+EVC             contrast       dcrandom ReLu7 0.000926  -0.023970   0.037478        False
+EVC             contrast      dctrained ReLu2 0.000926  -8.664528   3.371025        False
+EVC             contrast      dctrained ReLu7 0.000926  -0.055417   0.076156        False
+EVC                  hue alexnettrained ReLu2 0.000926  -2.175379   0.610897        False
+EVC                  hue alexnettrained ReLu7 0.000926  -1.507991   0.096344        False
+EVC                  hue       dcrandom ReLu2 0.000926  -0.025466   0.005347        False
+EVC                  hue       dcrandom ReLu7 0.000926  -0.001541   0.002938        False
+EVC                  hue      dctrained ReLu2 0.000926  -0.540949   1.066867        False
+EVC                  hue      dctrained ReLu7 0.000926  -0.051427   0.037613        False
+EVC                lurid alexnettrained ReLu2 0.000926  -6.887501  45.388986        False
+EVC                lurid alexnettrained ReLu7 0.000926  -9.650159   2.572962        False
+EVC                lurid       dcrandom ReLu2 0.000926  -0.014407   0.042500        False
+EVC                lurid       dcrandom ReLu7 0.000926  -0.017788   0.061479        False
+EVC                lurid      dctrained ReLu2 0.000926  -1.204143   5.629134        False
+EVC                lurid      dctrained ReLu7 0.000926   0.003288   0.057251         True
+EVC radiansoffhorizontal alexnettrained ReLu2 0.000926 -20.082661  95.115963        False
+EVC radiansoffhorizontal alexnettrained ReLu7 0.000926 -42.073819  11.531326        False
+EVC radiansoffhorizontal       dcrandom ReLu2 0.000926   0.053223   0.244167         True
+EVC radiansoffhorizontal       dcrandom ReLu7 0.000926   0.030778   0.132843         True
+EVC radiansoffhorizontal      dctrained ReLu2 0.000926 -24.695060 134.236426        False
+EVC radiansoffhorizontal      dctrained ReLu7 0.000926   0.470193   1.296010         True
+EVC     semantic_animacy alexnettrained ReLu2 0.000926  -1.323918   9.041967        False
+EVC     semantic_animacy alexnettrained ReLu7 0.000926  -6.827669   1.832421        False
+EVC     semantic_animacy       dcrandom ReLu2 0.000926  -0.002467   0.008924        False
+EVC     semantic_animacy       dcrandom ReLu7 0.000926   0.000207   0.002800         True
+EVC     semantic_animacy      dctrained ReLu2 0.000926  -1.069366   4.802389        False
+EVC     semantic_animacy      dctrained ReLu7 0.000926  -0.012014   0.063446        False
+EVC    semantic_category alexnettrained ReLu2 0.000926  -1.154749   4.543699        False
+EVC    semantic_category alexnettrained ReLu7 0.000926  -2.973588   1.288304        False
+EVC    semantic_category       dcrandom ReLu2 0.000926  -0.000003  -0.000000         True
+EVC    semantic_category       dcrandom ReLu7 0.000926  -0.000120   0.002695        False
+EVC    semantic_category      dctrained ReLu2 0.000926  -0.787472   2.966981        False
+EVC    semantic_category      dctrained ReLu7 0.000926  -0.079404   0.026149        False
+EVC           silhouette alexnettrained ReLu2 0.000926 -36.914921 188.808917        False
+EVC           silhouette alexnettrained ReLu7 0.000926 -81.912309  21.075853        False
+EVC           silhouette       dcrandom ReLu2 0.000926   0.096272   0.482453         True
+EVC           silhouette       dcrandom ReLu7 0.000926   0.112863   0.559476         True
+EVC           silhouette      dctrained ReLu2 0.000926 -54.525166 275.383312        False
+EVC           silhouette      dctrained ReLu7 0.000926   0.618191   1.720144         True
+EVC                 size alexnettrained ReLu2 0.000926 -13.771667  67.984712        False
+EVC                 size alexnettrained ReLu7 0.000926 -22.163893   5.824759        False
+EVC                 size       dcrandom ReLu2 0.000926  -0.014007   0.064983        False
+EVC                 size       dcrandom ReLu7 0.000926  -0.003537   0.092761        False
+EVC                 size      dctrained ReLu2 0.000926 -32.856059 192.641091        False
+EVC                 size      dctrained ReLu7 0.000926   0.024004   0.289286         True
+EVC             thinness alexnettrained ReLu2 0.000926  -9.995409  52.408191        False
+EVC             thinness alexnettrained ReLu7 0.000926  -2.946256   0.801379        False
+EVC             thinness       dcrandom ReLu2 0.000926   0.025195   0.309505         True
+EVC             thinness       dcrandom ReLu7 0.000926   0.115970   0.374758         True
+EVC             thinness      dctrained ReLu2 0.000926 -28.236031 154.529367        False
+EVC             thinness      dctrained ReLu7 0.000926   0.017577   0.096684         True
+ IT             contrast alexnettrained ReLu2 0.000926  -0.012998   0.032597        False
+ IT             contrast alexnettrained ReLu7 0.000926  -0.001289   0.000013        False
+ IT             contrast       dcrandom ReLu2 0.000926  -0.006730   0.011810        False
+ IT             contrast       dcrandom ReLu7 0.000926  -0.009449   0.031019        False
+ IT             contrast      dctrained ReLu2 0.000926  -0.024027   0.157257        False
+ IT             contrast      dctrained ReLu7 0.000926  -0.016334   0.014392        False
+ IT                  hue alexnettrained ReLu2 0.000926  -0.038481   0.065093        False
+ IT                  hue alexnettrained ReLu7 0.000926  -0.025636   0.041408        False
+ IT                  hue       dcrandom ReLu2 0.000926  -0.045143  -0.000321         True
+ IT                  hue       dcrandom ReLu7 0.000926  -0.001143   0.005774        False
+ IT                  hue      dctrained ReLu2 0.000926  -0.023936   0.022652        False
+ IT                  hue      dctrained ReLu7 0.000926  -0.019358   0.034360        False
+ IT                lurid alexnettrained ReLu2 0.000926  -0.040473   0.251195        False
+ IT                lurid alexnettrained ReLu7 0.000926  -0.005168   0.094924        False
+ IT                lurid       dcrandom ReLu2 0.000926  -0.007367   0.065685        False
+ IT                lurid       dcrandom ReLu7 0.000926  -0.004218   0.113198        False
+ IT                lurid      dctrained ReLu2 0.000926   0.004041   0.188486         True
+ IT                lurid      dctrained ReLu7 0.000926   0.002309   0.025159         True
+ IT radiansoffhorizontal alexnettrained ReLu2 0.000926   0.060317   0.220541         True
+ IT radiansoffhorizontal alexnettrained ReLu7 0.000926   0.010148   0.133290         True
+ IT radiansoffhorizontal       dcrandom ReLu2 0.000926   0.019845   0.100043         True
+ IT radiansoffhorizontal       dcrandom ReLu7 0.000926   0.027573   0.067580         True
+ IT radiansoffhorizontal      dctrained ReLu2 0.000926   0.107913   1.024691         True
+ IT radiansoffhorizontal      dctrained ReLu7 0.000926  -0.091926   0.066448        False
+ IT     semantic_animacy alexnettrained ReLu2 0.000926   0.213242   0.435538         True
+ IT     semantic_animacy alexnettrained ReLu7 0.000926   0.217740   0.413035         True
+ IT     semantic_animacy       dcrandom ReLu2 0.000926   0.050122   0.105538         True
+ IT     semantic_animacy       dcrandom ReLu7 0.000926   0.010084   0.024672         True
+ IT     semantic_animacy      dctrained ReLu2 0.000926   0.107055   0.926501         True
+ IT     semantic_animacy      dctrained ReLu7 0.000926   0.146247   0.241963         True
+ IT    semantic_category alexnettrained ReLu2 0.000926   0.068477   0.175621         True
+ IT    semantic_category alexnettrained ReLu7 0.000926   0.053011   0.243132         True
+ IT    semantic_category       dcrandom ReLu2 0.000926  -0.000020  -0.000008         True
+ IT    semantic_category       dcrandom ReLu7 0.000926   0.009751   0.029084         True
+ IT    semantic_category      dctrained ReLu2 0.000926   0.039828   0.451201         True
+ IT    semantic_category      dctrained ReLu7 0.000926   0.061104   0.177212         True
+ IT           silhouette alexnettrained ReLu2 0.000926   0.122715   0.583532         True
+ IT           silhouette alexnettrained ReLu7 0.000926   0.063542   0.329485         True
+ IT           silhouette       dcrandom ReLu2 0.000926   0.019195   0.269721         True
+ IT           silhouette       dcrandom ReLu7 0.000926   0.101196   0.364699         True
+ IT           silhouette      dctrained ReLu2 0.000926   0.235075   2.283732         True
+ IT           silhouette      dctrained ReLu7 0.000926  -0.009122   0.330911        False
+ IT                 size alexnettrained ReLu2 0.000926  -0.097777   0.247544        False
+ IT                 size alexnettrained ReLu7 0.000926  -0.005263   0.087219        False
+ IT                 size       dcrandom ReLu2 0.000926  -0.031736   0.096728        False
+ IT                 size       dcrandom ReLu7 0.000926  -0.007164   0.131815        False
+ IT                 size      dctrained ReLu2 0.000926  -0.126447   1.464566        False
+ IT                 size      dctrained ReLu7 0.000926  -0.005851   0.063635        False
+ IT             thinness alexnettrained ReLu2 0.000926   0.053741   0.195300         True
+ IT             thinness alexnettrained ReLu7 0.000926   0.004501   0.013385         True
+ IT             thinness       dcrandom ReLu2 0.000926  -0.021190   0.233929        False
+ IT             thinness       dcrandom ReLu7 0.000926   0.074703   0.340469         True
+ IT             thinness      dctrained ReLu2 0.000926   0.112669   1.423392         True
+ IT             thinness      dctrained ReLu7 0.000926   0.008813   0.021484         True

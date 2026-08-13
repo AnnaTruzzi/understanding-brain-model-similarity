@@ -1,0 +1,21 @@
+##### 
+T TESTs
+##### 
+##### 
+MODELS COMPARISON
+##### 
+#all-dctrained VS all-alexnettrained 
+t=96.98635694254264, p=0.0, df=9999, Cohen's d=1.1378 
+
+#all-dcrandom VS all-alexnettrained 
+t=71.08539309263116, p=0.0, df=9999, Cohen's d=1.2578 
+
+#all-dcrandom VS all-dctrained 
+t=15.683220155866303, p=8.832568030033178e-55, df=9999, Cohen's d=0.2804 
+
+#all-alexnettrained-with-dcrandom2 VS all-alexnettrained 
+t=202.3962729576222, p=0.0, df=9999, Cohen's d=2.8399 
+
+#all-dctrained-with-dcrandom2 VS all-dctrained 
+t=172.1679739361496, p=0.0, df=9999, Cohen's d=2.1702 
+

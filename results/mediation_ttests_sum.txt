@@ -1,0 +1,164 @@
+T-TEST RESULTS: PERCEPTUAL vs SEMANTIC SUM
+======================================================================
+
+BONFERRONI CORRECTION:
+Total number of tests: 36
+One-sample tests (always performed): 4
+Paired tests (only if both one-sample tests significant): variable
+Original α: 0.050
+Corrected α: 0.001389
+
+======================================================================
+
+ROI: EVC
+--------------------------------------------------
+
+Network: dcrandom
+  ReLu2:
+    ONE-SAMPLE T-TESTS (vs 0):
+      Perceptual: M = 1.9378, SD = 0.2731, N = 1000
+        t(999) = 224.3563, p = 0.0000 [Significant after Bonferroni correction]
+      Semantic:   M = 0.0010, SD = 0.0092, N = 1000
+        t(999) = 3.5749, p = 0.0004 [Significant after Bonferroni correction]
+
+    PAIRED T-TEST (Perceptual vs Semantic):
+      t(999) = 222.6203, p = 0.0000, Cohen's d = 10.0225
+      Significant after Bonferroni correction (p < 0.001389)
+
+  ReLu7:
+    ONE-SAMPLE T-TESTS (vs 0):
+      Perceptual: M = 0.3053, SD = 0.0544, N = 1000
+        t(999) = 177.5727, p = 0.0000 [Significant after Bonferroni correction]
+      Semantic:   M = 0.0002, SD = 0.0002, N = 1000
+        t(999) = 25.9459, p = 0.0000 [Significant after Bonferroni correction]
+
+    PAIRED T-TEST (Perceptual vs Semantic):
+      t(999) = 177.1489, p = 0.0000, Cohen's d = 7.9360
+      Significant after Bonferroni correction (p < 0.001389)
+
+
+Network: dctrained
+  ReLu2:
+    ONE-SAMPLE T-TESTS (vs 0):
+      Perceptual: M = 0.0742, SD = 0.0099, N = 1000
+        t(999) = 237.2599, p = 0.0000 [Significant after Bonferroni correction]
+      Semantic:   M = 0.0005, SD = 0.0002, N = 1000
+        t(999) = 81.8269, p = 0.0000 [Significant after Bonferroni correction]
+
+    PAIRED T-TEST (Perceptual vs Semantic):
+      t(999) = 233.8532, p = 0.0000, Cohen's d = 10.5331
+      Significant after Bonferroni correction (p < 0.001389)
+
+  ReLu7:
+    ONE-SAMPLE T-TESTS (vs 0):
+      Perceptual: M = 0.0922, SD = 0.0162, N = 1000
+        t(999) = 180.1847, p = 0.0000 [Significant after Bonferroni correction]
+      Semantic:   M = 0.0016, SD = 0.0013, N = 1000
+        t(999) = 36.4428, p = 0.0000 [Significant after Bonferroni correction]
+
+    PAIRED T-TEST (Perceptual vs Semantic):
+      t(999) = 173.5255, p = 0.0000, Cohen's d = 7.8948
+      Significant after Bonferroni correction (p < 0.001389)
+
+
+Network: alexnettrained
+  ReLu2:
+    ONE-SAMPLE T-TESTS (vs 0):
+      Perceptual: M = 0.0765, SD = 0.0107, N = 1000
+        t(999) = 225.0754, p = 0.0000 [Significant after Bonferroni correction]
+      Semantic:   M = 0.0019, SD = 0.0006, N = 1000
+        t(999) = 104.2072, p = 0.0000 [Significant after Bonferroni correction]
+
+    PAIRED T-TEST (Perceptual vs Semantic):
+      t(999) = 218.1881, p = 0.0000, Cohen's d = 9.7965
+      Significant after Bonferroni correction (p < 0.001389)
+
+  ReLu7:
+    ONE-SAMPLE T-TESTS (vs 0):
+      Perceptual: M = 0.0861, SD = 0.0146, N = 1000
+        t(999) = 186.1077, p = 0.0000 [Significant after Bonferroni correction]
+      Semantic:   M = 0.0060, SD = 0.0031, N = 1000
+        t(999) = 61.7272, p = 0.0000 [Significant after Bonferroni correction]
+
+    PAIRED T-TEST (Perceptual vs Semantic):
+      t(999) = 158.8975, p = 0.0000, Cohen's d = 7.5814
+      Significant after Bonferroni correction (p < 0.001389)
+
+
+
+ROI: IT
+--------------------------------------------------
+
+Network: dcrandom
+  ReLu2:
+    ONE-SAMPLE T-TESTS (vs 0):
+      Perceptual: M = 0.8431, SD = 0.2429, N = 1000
+        t(999) = 109.7679, p = 0.0000 [Significant after Bonferroni correction]
+      Semantic:   M = 0.2128, SD = 0.0333, N = 1000
+        t(999) = 201.8873, p = 0.0000 [Significant after Bonferroni correction]
+
+    PAIRED T-TEST (Perceptual vs Semantic):
+      t(999) = 87.7795, p = 0.0000, Cohen's d = 3.6358
+      Significant after Bonferroni correction (p < 0.001389)
+
+  ReLu7:
+    ONE-SAMPLE T-TESTS (vs 0):
+      Perceptual: M = 0.1853, SD = 0.0370, N = 1000
+        t(999) = 158.5433, p = 0.0000 [Significant after Bonferroni correction]
+      Semantic:   M = 0.0094, SD = 0.0018, N = 1000
+        t(999) = 166.0141, p = 0.0000 [Significant after Bonferroni correction]
+
+    PAIRED T-TEST (Perceptual vs Semantic):
+      t(999) = 155.8007, p = 0.0000, Cohen's d = 6.7213
+      Significant after Bonferroni correction (p < 0.001389)
+
+
+Network: dctrained
+  ReLu2:
+    ONE-SAMPLE T-TESTS (vs 0):
+      Perceptual: M = 0.0393, SD = 0.0103, N = 1000
+        t(999) = 120.6947, p = 0.0000 [Significant after Bonferroni correction]
+      Semantic:   M = 0.0116, SD = 0.0019, N = 1000
+        t(999) = 194.2773, p = 0.0000 [Significant after Bonferroni correction]
+
+    PAIRED T-TEST (Perceptual vs Semantic):
+      t(999) = 96.2184, p = 0.0000, Cohen's d = 3.7479
+      Significant after Bonferroni correction (p < 0.001389)
+
+  ReLu7:
+    ONE-SAMPLE T-TESTS (vs 0):
+      Perceptual: M = 0.0069, SD = 0.0081, N = 1000
+        t(999) = 26.9364, p = 0.0000 [Significant after Bonferroni correction]
+      Semantic:   M = 0.0293, SD = 0.0056, N = 1000
+        t(999) = 164.5426, p = 0.0000 [Significant after Bonferroni correction]
+
+    PAIRED T-TEST (Perceptual vs Semantic):
+      t(999) = -84.9511, p = 0.0000, Cohen's d = -3.2002
+      Significant after Bonferroni correction (p < 0.001389)
+
+
+Network: alexnettrained
+  ReLu2:
+    ONE-SAMPLE T-TESTS (vs 0):
+      Perceptual: M = 0.0299, SD = 0.0073, N = 1000
+        t(999) = 129.0143, p = 0.0000 [Significant after Bonferroni correction]
+      Semantic:   M = 0.0262, SD = 0.0043, N = 1000
+        t(999) = 194.3729, p = 0.0000 [Significant after Bonferroni correction]
+
+    PAIRED T-TEST (Perceptual vs Semantic):
+      t(999) = 18.5314, p = 0.0000, Cohen's d = 0.6199
+      Significant after Bonferroni correction (p < 0.001389)
+
+  ReLu7:
+    ONE-SAMPLE T-TESTS (vs 0):
+      Perceptual: M = 0.0280, SD = 0.0091, N = 1000
+        t(999) = 97.4763, p = 0.0000 [Significant after Bonferroni correction]
+      Semantic:   M = 0.0644, SD = 0.0118, N = 1000
+        t(999) = 172.9607, p = 0.0000 [Significant after Bonferroni correction]
+
+    PAIRED T-TEST (Perceptual vs Semantic):
+      t(999) = -119.1640, p = 0.0000, Cohen's d = -3.4562
+      Significant after Bonferroni correction (p < 0.001389)
+
+
+

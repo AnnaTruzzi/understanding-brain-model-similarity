@@ -1,0 +1,17 @@
+name: deepcluster-publication-analysis
+dependencies:
+  - python=3.13
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - h5py
+  - pillow
+  - pip
+  - pip:
+      - scikit-bio
+      - pingouin
+      - hdf5storage

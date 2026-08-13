@@ -1,0 +1,70 @@
+******************************** 
+******************************** 
+Average corr with brain - Layer Average ReLu1 - randomstate 
+EVC: 0.0699485017951591 
+IT: 0.09661474224354073 
+******************************** 
+******************************** 
+Average corr with brain - Layer Average ReLu1 - 100epochs 
+EVC: 0.035222823684721766 
+IT: 0.05480973063955766 
+******************************** 
+******************************** 
+Average corr with brain - Layer Average ReLu2 - randomstate 
+EVC: 0.12979487674204832 
+IT: 0.14726098239889732 
+******************************** 
+******************************** 
+Average corr with brain - Layer Average ReLu2 - 100epochs 
+EVC: 0.021724825483591264 
+IT: 0.049562313779237574 
+******************************** 
+******************************** 
+Average corr with brain - Layer Average ReLu3 - randomstate 
+EVC: 0.11059082036174134 
+IT: 0.13847187425495047 
+******************************** 
+******************************** 
+Average corr with brain - Layer Average ReLu3 - 100epochs 
+EVC: 0.03587390255926955 
+IT: 0.07192437365415393 
+******************************** 
+******************************** 
+Average corr with brain - Layer Average ReLu4 - randomstate 
+EVC: 0.11544986103190871 
+IT: 0.14296902515696344 
+******************************** 
+******************************** 
+Average corr with brain - Layer Average ReLu4 - 100epochs 
+EVC: 0.024316019547436098 
+IT: 0.0833552436170482 
+******************************** 
+******************************** 
+Average corr with brain - Layer Average ReLu5 - randomstate 
+EVC: 0.11839117819482474 
+IT: 0.14400054951714605 
+******************************** 
+******************************** 
+Average corr with brain - Layer Average ReLu5 - 100epochs 
+EVC: 0.009517127029983504 
+IT: 0.11297051882372126 
+******************************** 
+******************************** 
+Average corr with brain - Layer Average ReLu6 - randomstate 
+EVC: 0.11886208851145737 
+IT: 0.11141147322540497 
+******************************** 
+******************************** 
+Average corr with brain - Layer Average ReLu6 - 100epochs 
+EVC: 0.04309644539658564 
+IT: 0.12693974700519814 
+******************************** 
+******************************** 
+Average corr with brain - Layer Average ReLu7 - randomstate 
+EVC: 0.11920316969405327 
+IT: 0.11229838781030925 
+******************************** 
+******************************** 
+Average corr with brain - Layer Average ReLu7 - 100epochs 
+EVC: 0.05755478950429862 
+IT: 0.13791640527498406 

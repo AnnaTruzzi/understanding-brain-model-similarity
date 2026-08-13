@@ -1,0 +1,44 @@
+
+ ####### EVC 
+ANOVA table 
+          Source        SS   DF  ...            F         p-unc       np2
+0          state  1.234419    1  ...  3161.553013  4.164897e-91  0.961674
+1          layer  0.088845    6  ...    37.924576  5.175636e-26  0.643612
+2  state * layer  0.122183    6  ...    52.155033  7.621873e-32  0.712938
+3       Residual  0.049196  126  ...          NaN           NaN       NaN
+
+[4 rows x 7 columns] 
+Kruskal-Wallis H test 
+KruskalResult(statistic=np.float64(128.5164741641338), pvalue=np.float64(4.1265228979538884e-21)) 
+Post-hoc t tests 
+ReLu1: TtestResult(statistic=np.float64(13.82148066762108), pvalue=np.float64(5.027082110506931e-11), df=np.float64(18.0)), Cohen's d = 6.1812 
+ReLu2: TtestResult(statistic=np.float64(48.41430999808573), pvalue=np.float64(1.6135909160509257e-20), df=np.float64(18.0)), Cohen's d = 21.6515 
+ReLu3: TtestResult(statistic=np.float64(20.23231241241488), pvalue=np.float64(7.890433249955592e-14), df=np.float64(18.0)), Cohen's d = 9.0482 
+ReLu4: TtestResult(statistic=np.float64(18.368708116809927), pvalue=np.float64(4.161991766359836e-13), df=np.float64(18.0)), Cohen's d = 8.2147 
+ReLu5: TtestResult(statistic=np.float64(20.091254821650136), pvalue=np.float64(8.904089013356823e-14), df=np.float64(18.0)), Cohen's d = 8.9851 
+ReLu6: TtestResult(statistic=np.float64(24.508437847896502), pvalue=np.float64(2.808018922964467e-15), df=np.float64(18.0)), Cohen's d = 10.9605 
+ReLu7: TtestResult(statistic=np.float64(19.523086299826964), pvalue=np.float64(1.460472937031384e-13), df=np.float64(18.0)), Cohen's d = 8.7310 
+
+ ####### IT 
+ANOVA table 
+          Source        SS   DF  ...           F         p-unc       np2
+0          state  0.118067    1  ...  825.682681  3.627056e-57  0.867603
+1          layer  0.104621    6  ...  121.941624  5.095698e-50  0.853087
+2  state * layer  0.186552    6  ...  217.435670  5.817301e-64  0.911926
+3       Residual  0.018017  126  ...         NaN           NaN       NaN
+
+[4 rows x 7 columns] 
+Kruskal-Wallis H test 
+KruskalResult(statistic=np.float64(127.96729483282684), pvalue=np.float64(5.3061118906614704e-21)) 
+Post-hoc t tests 
+ReLu1: TtestResult(statistic=np.float64(17.223363867020556), pvalue=np.float64(1.2497764259060157e-12), df=np.float64(18.0)), Cohen's d = 7.7025 
+ReLu2: TtestResult(statistic=np.float64(38.147636770941084), pvalue=np.float64(1.1315179846324518e-18), df=np.float64(18.0)), Cohen's d = 17.0601 
+ReLu3: TtestResult(statistic=np.float64(23.027417057596754), pvalue=np.float64(8.343517670764364e-15), df=np.float64(18.0)), Cohen's d = 10.2982 
+ReLu4: TtestResult(statistic=np.float64(16.001100180952157), pvalue=np.float64(4.35219984273128e-12), df=np.float64(18.0)), Cohen's d = 7.1559 
+ReLu5: TtestResult(statistic=np.float64(5.4968086964143605), pvalue=np.float64(3.209288599759222e-05), df=np.float64(18.0)), Cohen's d = 2.4582 
+ReLu6: TtestResult(statistic=np.float64(-9.772158834763763), pvalue=np.float64(1.2718086265555327e-08), df=np.float64(18.0)), Cohen's d = -4.3702 
+ReLu7: TtestResult(statistic=np.float64(-15.020102221905333), pvalue=np.float64(1.2604563250688098e-11), df=np.float64(18.0)), Cohen's d = -6.7172 
+
+
+Compare ReLu7 to ReLu 2 in layer variability vs IT average 
+ReLu7 100 epochs (M=0.2452) vs ReLu2 randomstate (M=0.2551) = TtestResult(statistic=np.float64(-2.2809853066073438), pvalue=np.float64(0.03494560683306618), df=np.float64(18.0)), Cohen's d = -1.0201 

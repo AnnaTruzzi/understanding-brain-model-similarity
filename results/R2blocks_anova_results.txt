@@ -1,0 +1,131 @@
+=== R2/AIC ANOVA ANALYSIS ===
+Total observations (long): 72000
+
+
+================================================================================
+ROI: EVC
+================================================================================
+
+alexnettrained ReLu2 AIC: F(2, 1998) = 21947.415, p = 0.0000
+  total vs perceptual: t(999) = 148.296, p = 0.0000, d = 4.690
+  total vs semantic: t(999) = -6.996, p = 0.0000, d = -0.221
+  perceptual vs semantic: t(999) = -148.001, p = 0.0000, d = -4.680
+
+alexnettrained ReLu2 R2: F(2, 1998) = 30679.577, p = 0.0000
+  total vs perceptual: t(999) = -175.708, p = 0.0000, d = -5.556
+  total vs semantic: t(999) = -54.867, p = 0.0000, d = -1.735
+  perceptual vs semantic: t(999) = 174.613, p = 0.0000, d = 5.522
+
+alexnettrained ReLu7 AIC: F(2, 1998) = 22079.431, p = 0.0000
+  total vs perceptual: t(999) = 148.678, p = 0.0000, d = 4.702
+  total vs semantic: t(999) = -1.685, p = 0.0922, d = -0.053
+  perceptual vs semantic: t(999) = -148.514, p = 0.0000, d = -4.696
+
+alexnettrained ReLu7 R2: F(2, 1998) = 31270.090, p = 0.0000
+  total vs perceptual: t(999) = -177.344, p = 0.0000, d = -5.608
+  total vs semantic: t(999) = -39.321, p = 0.0000, d = -1.243
+  perceptual vs semantic: t(999) = 176.344, p = 0.0000, d = 5.576
+
+dcrandom ReLu2 AIC: F(2, 1998) = 8936.889, p = 0.0000
+  total vs perceptual: t(999) = 94.415, p = 0.0000, d = 2.986
+  total vs semantic: t(999) = 22.476, p = 0.0000, d = 0.711
+  perceptual vs semantic: t(999) = -94.662, p = 0.0000, d = -2.993
+
+dcrandom ReLu2 R2: F(2, 1998) = 11253.209, p = 0.0000
+  total vs perceptual: t(999) = -106.212, p = 0.0000, d = -3.359
+  total vs semantic: t(999) = -70.304, p = 0.0000, d = -2.223
+  perceptual vs semantic: t(999) = 105.955, p = 0.0000, d = 3.351
+
+dcrandom ReLu7 AIC: F(2, 1998) = 12451.304, p = 0.0000
+  total vs perceptual: t(999) = 111.695, p = 0.0000, d = 3.532
+  total vs semantic: t(999) = 46.446, p = 0.0000, d = 1.469
+  perceptual vs semantic: t(999) = -111.487, p = 0.0000, d = -3.526
+
+dcrandom ReLu7 R2: F(2, 1998) = 15386.099, p = 0.0000
+  total vs perceptual: t(999) = -124.394, p = 0.0000, d = -3.934
+  total vs semantic: t(999) = -74.829, p = 0.0000, d = -2.366
+  perceptual vs semantic: t(999) = 123.699, p = 0.0000, d = 3.912
+
+dctrained ReLu2 AIC: F(2, 1998) = 20969.150, p = 0.0000
+  total vs perceptual: t(999) = 145.061, p = 0.0000, d = 4.587
+  total vs semantic: t(999) = 46.257, p = 0.0000, d = 1.463
+  perceptual vs semantic: t(999) = -144.559, p = 0.0000, d = -4.571
+
+dctrained ReLu2 R2: F(2, 1998) = 29251.365, p = 0.0000
+  total vs perceptual: t(999) = -171.711, p = 0.0000, d = -5.430
+  total vs semantic: t(999) = -90.535, p = 0.0000, d = -2.863
+  perceptual vs semantic: t(999) = 170.359, p = 0.0000, d = 5.387
+
+dctrained ReLu7 AIC: F(2, 1998) = 20863.679, p = 0.0000
+  total vs perceptual: t(999) = 144.565, p = 0.0000, d = 4.572
+  total vs semantic: t(999) = 23.616, p = 0.0000, d = 0.747
+  perceptual vs semantic: t(999) = -144.351, p = 0.0000, d = -4.565
+
+dctrained ReLu7 R2: F(2, 1998) = 29798.155, p = 0.0000
+  total vs perceptual: t(999) = -173.239, p = 0.0000, d = -5.478
+  total vs semantic: t(999) = -47.535, p = 0.0000, d = -1.503
+  perceptual vs semantic: t(999) = 172.065, p = 0.0000, d = 5.441
+
+================================================================================
+ROI: IT
+================================================================================
+
+alexnettrained ReLu2 AIC: F(2, 1998) = 18758.974, p = 0.0000
+  total vs perceptual: t(999) = 116.041, p = 0.0000, d = 3.670
+  total vs semantic: t(999) = 203.439, p = 0.0000, d = 6.433
+  perceptual vs semantic: t(999) = 83.943, p = 0.0000, d = 2.655
+
+alexnettrained ReLu2 R2: F(2, 1998) = 21145.002, p = 0.0000
+  total vs perceptual: t(999) = -125.936, p = 0.0000, d = -3.982
+  total vs semantic: t(999) = -225.772, p = 0.0000, d = -7.140
+  perceptual vs semantic: t(999) = -82.568, p = 0.0000, d = -2.611
+
+alexnettrained ReLu7 AIC: F(2, 1998) = 15701.789, p = 0.0000
+  total vs perceptual: t(999) = 120.812, p = 0.0000, d = 3.820
+  total vs semantic: t(999) = 206.997, p = 0.0000, d = 6.546
+  perceptual vs semantic: t(999) = 52.100, p = 0.0000, d = 1.648
+
+alexnettrained ReLu7 R2: F(2, 1998) = 17928.521, p = 0.0000
+  total vs perceptual: t(999) = -127.600, p = 0.0000, d = -4.035
+  total vs semantic: t(999) = -235.391, p = 0.0000, d = -7.444
+  perceptual vs semantic: t(999) = -49.939, p = 0.0000, d = -1.579
+
+dcrandom ReLu2 AIC: F(2, 1998) = 32791.103, p = 0.0000
+  total vs perceptual: t(999) = 99.008, p = 0.0000, d = 3.131
+  total vs semantic: t(999) = 200.395, p = 0.0000, d = 6.337
+  perceptual vs semantic: t(999) = 167.892, p = 0.0000, d = 5.309
+
+dcrandom ReLu2 R2: F(2, 1998) = 37619.608, p = 0.0000
+  total vs perceptual: t(999) = -113.351, p = 0.0000, d = -3.584
+  total vs semantic: t(999) = -221.816, p = 0.0000, d = -7.014
+  perceptual vs semantic: t(999) = -173.984, p = 0.0000, d = -5.502
+
+dcrandom ReLu7 AIC: F(2, 1998) = 35960.043, p = 0.0000
+  total vs perceptual: t(999) = 132.915, p = 0.0000, d = 4.203
+  total vs semantic: t(999) = 221.679, p = 0.0000, d = 7.010
+  perceptual vs semantic: t(999) = 162.700, p = 0.0000, d = 5.145
+
+dcrandom ReLu7 R2: F(2, 1998) = 40234.033, p = 0.0000
+  total vs perceptual: t(999) = -153.325, p = 0.0000, d = -4.849
+  total vs semantic: t(999) = -242.317, p = 0.0000, d = -7.663
+  perceptual vs semantic: t(999) = -162.184, p = 0.0000, d = -5.129
+
+dctrained ReLu2 AIC: F(2, 1998) = 20744.517, p = 0.0000
+  total vs perceptual: t(999) = 133.723, p = 0.0000, d = 4.229
+  total vs semantic: t(999) = 214.273, p = 0.0000, d = 6.776
+  perceptual vs semantic: t(999) = 79.000, p = 0.0000, d = 2.498
+
+dctrained ReLu2 R2: F(2, 1998) = 23888.476, p = 0.0000
+  total vs perceptual: t(999) = -145.447, p = 0.0000, d = -4.599
+  total vs semantic: t(999) = -238.569, p = 0.0000, d = -7.544
+  perceptual vs semantic: t(999) = -77.632, p = 0.0000, d = -2.455
+
+dctrained ReLu7 AIC: F(2, 1998) = 16808.204, p = 0.0000
+  total vs perceptual: t(999) = 122.317, p = 0.0000, d = 3.868
+  total vs semantic: t(999) = 191.273, p = 0.0000, d = 6.049
+  perceptual vs semantic: t(999) = 73.766, p = 0.0000, d = 2.333
+
+dctrained ReLu7 R2: F(2, 1998) = 19941.561, p = 0.0000
+  total vs perceptual: t(999) = -132.152, p = 0.0000, d = -4.179
+  total vs semantic: t(999) = -224.434, p = 0.0000, d = -7.097
+  perceptual vs semantic: t(999) = -73.223, p = 0.0000, d = -2.316
