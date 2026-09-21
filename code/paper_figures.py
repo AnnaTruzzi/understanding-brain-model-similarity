@@ -144,7 +144,10 @@ def plot_dc_brain_lines(corr_df, title, out_stem):
                 [0.15, 0.20, 0.18, 0.18, 0.18, 0.18, 0.18],
             )
         else:
-            add_significance_stars(ax, ['', '', '', '**', '', '', ''], [0] * 7)
+            add_significance_stars(ax, ['', '', '', '***', '', '', ''], [0.36] * 7)
+            if roi == 'IT':
+                ax.plot([1, 6], [0.30, 0.30], color='black', lw=1.5)
+                ax.text(3.5, 0.30, '*', ha='center', va='bottom', fontsize=10)
 
         handles, labels = ax.get_legend_handles_labels()
         if idx == 1:
