@@ -324,9 +324,15 @@ def plot_linear_models_figure():
     add_significance_bracket(0, 3, bracket_base, '***')
     add_significance_bracket(1, 4, bracket_base + 0.045, '***')
 
+    lower_noise_ceiling = 0.283334
+    upper_noise_ceiling = 0.420033
+    ax.axhline(lower_noise_ceiling, color='gray', lw=2, alpha=0.4)
+    ax.axhline(upper_noise_ceiling, color='gray', lw=2, alpha=0.4)
+    ax.axhspan(lower_noise_ceiling, upper_noise_ceiling, facecolor='gray', alpha=0.4)
+
     ax.set_xlabel('Regression model')
     ax.set_ylabel('Cross-validated Kendall correlation')
-    ax.set_ylim(0, max(0.4, bracket_base + 0.09))
+    ax.set_ylim(0, max(0.45, bracket_base + 0.09, upper_noise_ceiling + 0.02))
     plt.setp(ax.get_xticklabels(), rotation=18, ha='right')
     ax.set_title('Bootstrap performance of linear regression models', pad=14)
     ax.grid(axis='y', alpha=0.25)
